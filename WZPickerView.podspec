@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = '我主良缘WZPickerView'
   
   s.description      = <<-DESC
-  我主良缘WZPickerView
+  我主良缘WZPickerView选择弹窗
   DESC
   
   s.homepage         = 'https://github.com/WZLYiOS/WZPickerView'
