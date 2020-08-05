@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.lug.ustc.edu.cn/wzios/WZPodSpecs.git'
+
+platform:ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'WZPickerView_Example' do
+  pod 'WZPickerView', :path => '../'
+  pod 'WZAlertViewController', '~> 2.0.0'
+  pod 'CleanJSON', '~> 1.0.0' #动态处理JSON问题
+end

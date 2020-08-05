@@ -1,0 +1,6 @@
+framework module WZAlertViewController {
+  umbrella header "WZAlertViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

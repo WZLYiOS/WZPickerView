@@ -1,0 +1,6 @@
+framework module WZPickerView {
+  umbrella header "WZPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

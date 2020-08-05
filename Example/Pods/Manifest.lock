@@ -1,0 +1,32 @@
+PODS:
+  - CleanJSON (1.0.0)
+  - WZAlertViewController (2.0.0):
+    - WZAlertViewController/Source (= 2.0.0)
+  - WZAlertViewController/Source (2.0.0)
+  - WZPickerView (2.0.3):
+    - WZPickerView/Source (= 2.0.3)
+  - WZPickerView/Source (2.0.3)
+
+DEPENDENCIES:
+  - CleanJSON (~> 1.0.0)
+  - WZAlertViewController (~> 2.0.0)
+  - WZPickerView (from `../`)
+
+SPEC REPOS:
+  https://git.lug.ustc.edu.cn/wzios/WZPodSpecs.git:
+    - WZAlertViewController
+  https://github.com/CocoaPods/Specs.git:
+    - CleanJSON
+
+EXTERNAL SOURCES:
+  WZPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CleanJSON: 702dd619e1329c6399a579aa19af311acf47e461
+  WZAlertViewController: ce2283efea46912d76d152361dfc2327d27bb594
+  WZPickerView: 28d3542f2ec78cd7913cd72613b36ed54737b63b
+
+PODFILE CHECKSUM: 9dbe8662d58f7c2e394041f9afc894b48fd24d9d
+
+COCOAPODS: 1.8.4

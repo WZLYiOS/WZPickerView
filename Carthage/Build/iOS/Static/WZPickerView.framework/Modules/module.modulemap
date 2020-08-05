@@ -1,0 +1,11 @@
+framework module WZPickerView {
+  umbrella header "WZPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WZPickerView.Swift {
+    header "WZPickerView-Swift.h"
+    requires objc
+}
