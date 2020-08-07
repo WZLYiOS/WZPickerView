@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name             = 'WZPickerView'
-  s.version          = '2.0.3'
+  s.version          = '2.0.4'
   s.summary          = '我主良缘WZPickerView'
   
   s.description      = <<-DESC
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   end
 
 
-  s.subspec 'Binary' do |ss|
-    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZPickerView.framework"
-    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
-  end
+#  s.subspec 'Binary' do |ss|
+#    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZPickerView.framework"
+#    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
+#  end
 end
